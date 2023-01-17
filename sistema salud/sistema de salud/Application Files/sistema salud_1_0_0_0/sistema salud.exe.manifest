@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="sistema salud.exe" version="1.0.0.0" publicKeyToken="0ecb7b462e76c33d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="sistema salud" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="sistema salud.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sistema salud.exe" size="3122128">
+      <assemblyIdentity name="sistema salud" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zbn04yWEgc1kFoR12pMTp9Wg9Laz+aDHQQv15cAMMPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="sistema salud.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-HQ961OQ0\HP" issuerKeyHash="c87967d51f282410a120c9966b22734fd9c95163" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a1e4m7t0wDdRUx/IbOVADH3g4uRwRnj3MiwV+cqgfmg=</DigestValue></Reference></SignedInfo><SignatureValue>btA81FFeEByN4V5H+S0bDmO6bjeWvcAOYQ1DHrXV69ak7ZXVe2AEO3tW1AxhdmQ/tmn8vBbNn8am3NdGYE6ST1kJ2PkFLOyhxuA/X0eJYhBmM7csCCgjANaD4BiK0MxSf9tn7RLSrdgLTtu60242mEYvyOYDOWpuZs0rY9MA/yA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xFY2YPxlHt6PNRMVHGNwg4BaoKjzknD4rHJOgP0aq+42k6GFjXfwz7M8y4ZzzTAI0+vpBuxSOYlpFl9Rj5iIvWLG4nZfDxlkZH3Gzd5VyD6xXhqF9EjEE0MJqY7HXIPstk2YraAbLiguPIwvTBvA2nSsCzz10DEYhu7x35eKj4k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="687ea0caf9152c32f7784670e4e2e07d0c40e56cc81f535137c074bb9bb8576b" Description="" Url=""><as:assemblyIdentity name="sistema salud.exe" version="1.0.0.0" publicKeyToken="0ecb7b462e76c33d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-HQ961OQ0\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>z3ILZyMDLn5EfTDKN8cyYbUOcDoB4uBOSIJwiBtQep4=</DigestValue></Reference></SignedInfo><SignatureValue>RPTsXQQYcJeTZ6PJTrGOfjsttsrpEq17/UluosUC/zNcu2qmQhiJUw9TVDuJFhA30UPKomwIplbFZIm9gD6NVFk+MOXqeGJOfspv9xTawXnilZXNqnLSCkIm1Xme8DjqpWUY6JloeXrCMr/iYKvc+3pdDtwnrBUp0JXOZ754E4M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xFY2YPxlHt6PNRMVHGNwg4BaoKjzknD4rHJOgP0aq+42k6GFjXfwz7M8y4ZzzTAI0+vpBuxSOYlpFl9Rj5iIvWLG4nZfDxlkZH3Gzd5VyD6xXhqF9EjEE0MJqY7HXIPstk2YraAbLiguPIwvTBvA2nSsCzz10DEYhu7x35eKj4k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQG23fz5+7TKFFpTvLRXAePjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBIAFEAOQA2ADEATwBRADAAXABIAFAwHhcNMjMwMTEzMDE0NTU5WhcNMjQwMTEzMDc0NTU5WjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQBIAFEAOQA2ADEATwBRADAAXABIAFAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMRWNmD8ZR7ejzUTFRxjcIOAWqCo85Jw+KxyToD9GqvuNpOhhY138M+zPMuGc80wCNPr6QbsUjmJaRZfUY+YiL1ixuJ2Xw8ZZGR9xs3eVcg+sV4ahfRIxBNDCamOx1yD7LZNmK2gGy4oLjyML0wbwNp0rAs89dAxGIbu8d+Xio+JAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAITcnVbsYTIuBDJKAXTX2Xa05137CrIPO5TMfVY4PbGLp89mbVvHUIbqwBhydyZn/ZQAh/RxaIaI6n0W9wTt7A9hhjH63919XDl7wABIUxqKOc0/oZdXiNUvHa9XwN7OCwDO4uXMqJ99VAreb7w/qYNnmZ3RboDCT7y2XVvQwah8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
